@@ -1,0 +1,39 @@
+
+*{list-style: none;
+  color: inherit;}
+
+
+.navbar{
+  display: flex;
+  background-color: #3a86ff;
+  height: 10vh;
+  align-items: center;
+}
+
+.navbar li{
+  float: left;
+  list-style: none;
+  padding: 10px;
+  color: #caf0f8;
+
+}
+
+.navbar li:hover{
+  font-weight: bold; 
+  color: white;
+
+}
+
+.content{  
+  padding: 10px;
+  margin: 10px;
+}
+.gallery{
+  width: 90vw;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+.gallery *{  
+  padding: 5px;
+}
